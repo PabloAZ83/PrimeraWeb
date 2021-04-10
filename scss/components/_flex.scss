@@ -1,0 +1,54 @@
+
+.flex-container-animacion {
+    display: flex;
+    justify-content: center;
+}
+ 
+.flex-container {
+    
+   display: flex;
+   flex-direction: row-reverse;
+   align-items:center;
+}
+
+
+
+
+.flex-container-1 {
+    margin: 3em auto;
+    width: 80%;
+    height: 73em;
+    border: 0.5em double rgb(245, 155, 10);
+
+    display: flex;
+
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap:nowrap;
+   
+}
+
+.flex-items {
+    margin: 1.5em;
+    align-content: center;
+}
+
+.flex-items-1 {
+    margin: 1.5em;
+    align-items: center;
+}
+
+
+
+
+
+iframe {  /*MODIFICA AL VIDEO YOUTUBE */
+   width: 750px;
+   height: 550px;
+   margin: 75px 60px;
+}
+
+.redes-sociales {
+    display: flex ;
+    justify-content: space-evenly;
+ }

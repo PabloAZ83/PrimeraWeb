@@ -1,0 +1,68 @@
+@import "components/encabezados";
+@import "components/imagenes";
+@import "components/paragraph";
+@import "components/menu-y-enlaces";
+@import "components/flex";
+@import "components/formularios";
+
+
+
+/* body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:linear-gradient(#f5efeb, #e0d6c9);
+}
+/* FIN DE BODY */
+
+
+
+/*    HEADER    */
+.titulo-fondo {
+    position:absolute;
+    top: 175px;
+    margin: 25px;
+    text-indent: 20cm;
+    font-size: 3em;
+    font-style: italic ;
+}
+
+.fondo-imagen-logo {
+    background: linear-gradient( #fff176, #f57f17);
+}
+/* FIN HEADER */
+
+/*---- MAIN----*/
+
+.seccion-1 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.naturaleza {
+    margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

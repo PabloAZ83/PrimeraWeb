@@ -1,0 +1,72 @@
+
+/*   MENU Y ENLACES */ 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient( #f57f17 ,#fff176); 
+    font-family:  'Architects Daughter', cursive;
+}
+
+.menu {
+    padding: 1%  0;
+    margin: 1% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-list {
+    
+    display: none;
+    position: absolute;
+    margin: 0 3rem 0 0;
+    transition: 5s; 
+} 
+
+nav { 
+    .menu {
+        .sub-list {
+                 li {  
+                   display: block;
+                    margin: 0 .5rem 0 0;
+            }
+        }
+    }
+}
+
+nav {
+    .menu {
+        li:hover {
+            
+            .sub-list {
+                font-size: 0.7em;
+                display: block;
+            } 
+        }
+    }
+}
+
+li:hover  {
+    background-color: rgba(238, 133, 36, 0.863);
+    transition: 1.2s;
+}
+
+li {
+    margin:1em;
+    font-size: 1.4em;
+    display: inline-block;
+}
+
+li .dropdown-item {
+    font-family:'Architects Daughter', cursive;
+    font-size: 0.7em;
+
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-weight:bold;
+}
+/* ------- FiN MENU Y ENLACES ----- */
+
