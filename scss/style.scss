@@ -24,8 +24,8 @@ body {
 /*    HEADER    */
 .titulo-fondo {
     position:absolute;
-    top: 175px;
-    margin: 25px;
+    top: 1.64em; /* 180 px*/
+    margin: 1.60em; /*26px*/
     text-indent: 20cm;
     font-size: 3em;
     font-style: italic ;
@@ -43,13 +43,25 @@ body {
     grid-template-rows: 50% 50%;
 }
 
-.naturaleza {
-    margin: 25px;
+.seccion-animacion {
+    margin: 1em;
 }
 
 
+.naturaleza {
+    margin: 1em; /*25px */
+}
 
+.jardin-en-casa {
+    margin: 0em 2.5em;
+}
 
+footer {
+    background: linear-gradient( #fff176,#f57f17 ) ;
+    height: 100px;
+    width: 100%;
+  
+}
 
 
 

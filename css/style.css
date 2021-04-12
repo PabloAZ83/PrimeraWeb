@@ -8,13 +8,13 @@ h1 {
 
 h2 {
   font-family: "Architects Daughter", cursive;
-  margin: 45px;
-  line-height: 40px;
+  margin: 1em 2.4em;
+  line-height: 2.5em;
 }
 
 h3 {
   text-align: center;
-  margin: 5em;
+  margin: 3em;
   font-size: 2em;
   font-family: "Architects Daughter", cursive;
 }
@@ -23,16 +23,16 @@ h3 {
 img {
   display: block;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 1em;
 }
 
 .imagen2 {
   max-width: 100%;
   height: auto;
   float: right;
-  padding: 25px;
-  left: 500px;
-  border-radius: 75px;
+  padding: 2em;
+  left: 31em;
+  border-radius: 4.5em;
 }
 
 .imagen-vivero {
@@ -44,33 +44,50 @@ img {
   border-radius: 15px;
 }
 
-.imagen3:hover {
-  transform: translateX(50px);
-  transition: 1.5s;
-  padding: 10px;
-  margin: 30px;
-  height: 470px;
-  width: 470px;
-  /*display: inline;*/
+.flex-container-animacion:hover .imagen3 {
+  transform: translateX(100px);
 }
 
-.imagen4:hover {
-  transform: rotate(400grad);
-  transition: 5s;
-  margin: 25px;
-  height: 450px;
-  width: 550px;
-  /*display:inline;*/
+.imagen3 {
+  padding: 0.6em;
+  margin: 2em 3em;
+  height: 26em;
+  /*26em*/
+  width: 26em;
+  /*26em**/
+  border-radius: 50%;
+  transition: all 2s linear;
 }
 
-.imagen5:hover {
-  transform: translateX(-50px);
-  transition: 1.5s;
-  padding: 10px;
-  margin: 35px;
-  width: 550px;
-  height: 450px;
-  /*display: inline;*/
+.flex-container-animacion:hover .imagen4 {
+  transform: translateX(-100px);
+}
+
+.imagen4 {
+  transition: all 3s linear;
+  padding: 0.6em;
+  margin: 2em 3em;
+  height: 35em;
+  /*28*/
+  width: 35em;
+  /*34em*/
+  align-self: flex-end;
+  border-radius: 10em 0em;
+}
+
+.flex-container-animacion:hover .imagen5 {
+  transform: translateX(100px);
+}
+
+.imagen5 {
+  transition: all 2s linear;
+  padding: 0.6em;
+  margin: 2em 3em;
+  width: 26em;
+  /*34em*/
+  height: 26em;
+  /*28*/
+  border-radius: 3em 10em;
 }
 
 .imagen-herramienta {
@@ -123,25 +140,35 @@ img {
   margin: 80px 400px;
 }
 
+.img-fluid {
+  margin: 4em auto;
+}
+
 .primer-parrafo {
-  padding: 25px;
-  line-height: 50px;
-  padding: 50px;
+  padding: 2em;
+  line-height: 2em;
 }
 
 .paragraph-1 {
   font-family: "Akaya Telivigala", cursive;
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 1.1em;
   display: inline;
 }
 
+.paragraph1-3 {
+  font-family: "Akaya Telivigala", cursive;
+  font-size: 1.1em;
+  /*display: inline; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
 .paragraph {
-  margin: 15px 30px;
-  padding: 25px;
+  margin: 1em 2em;
   font-family: "Akaya Telivigala", cursive;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 2em;
   text-align: center;
 }
 
@@ -210,7 +237,16 @@ a {
 /* ------- FiN MENU Y ENLACES ----- */
 .flex-container-animacion {
   display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   justify-content: center;
+  /*flex-wrap: wrap;*/
+  align-content: space-around;
+  flex-direction: column;
+  width: auto;
+  /* height: 100em; */
+  margin: 3em 6em;
+  /*  border: 2px solid black; */
 }
 
 .flex-container {
@@ -301,8 +337,10 @@ body {
 /*    HEADER    */
 .titulo-fondo {
   position: absolute;
-  top: 175px;
-  margin: 25px;
+  top: 1.64em;
+  /* 180 px*/
+  margin: 1.6em;
+  /*26px*/
   text-indent: 20cm;
   font-size: 3em;
   font-style: italic;
@@ -319,8 +357,23 @@ body {
   grid-template-rows: 50% 50%;
 }
 
+.seccion-animacion {
+  margin: 1em;
+}
+
 .naturaleza {
-  margin: 25px;
+  margin: 1em;
+  /*25px */
+}
+
+.jardin-en-casa {
+  margin: 0em 2.5em;
+}
+
+footer {
+  background: linear-gradient(#fff176, #f57f17);
+  height: 100px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
